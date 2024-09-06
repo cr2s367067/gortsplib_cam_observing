@@ -1282,3 +1282,7 @@ func (ss *ServerSession) startWriter() {
 	case <-ss.ctx.Done():
 	}
 }
+
+func (ss *ServerSession) ID() string {
+	return ss.secretID
+}
