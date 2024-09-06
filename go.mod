@@ -1,4 +1,4 @@
-module github.com/bluenviron/gortsplib/v4
+module github.com/cr2s367067/gortsplib_cam_observing
 
 go 1.20
 
